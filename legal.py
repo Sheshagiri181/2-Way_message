@@ -3,11 +3,11 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 
 app = Flask(__name__)
-client = MongoClient('mongodb+srv://gshesha181:Sheshu!123@cluster0.iwh6fjg.mongodb.net/')
+client = MongoClient('----------------/')
 filter={}
 
-result = client['aagama_pr_1']['student'].find(filter=filter)
-marks_result = client['aagama_pr_1']['marks'].find(filter=filter)
+result = client['--------']['------'].find(filter=filter)
+marks_result = client['--------']['--------'].find(filter=filter)
 print("connected to database")
 # -----------------------------Student-------------------------------------- 
 @app.route('/student', methods=['GET'])
