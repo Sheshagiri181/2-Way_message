@@ -5,10 +5,10 @@ from email.mime.base import MIMEBase
 from email import encoders
 import os
 
-sender_email = "gshesha181@gmail.com"
-password = "mpfsiaszdfmvucfx"  
-receiver_email ="rajkumarannapareddy786@gmail.com"
-cc_email = "sssvchaitanya@gmail.com"
+sender_email = "--------"
+password = "------------"  
+receiver_email ="------------"
+cc_email = "---------------"
 subject = "Test Email"
 body = "Hello, this is a test email sent."
 
