@@ -1,2 +1,3 @@
 #aagama all task
-GO, Python
+programming languages:- Python(Flask, Django), GO(Gin), HTML & CSS
+
